@@ -23,6 +23,7 @@ Just another list drag and sort jQuery plugin that takes into account relative p
 - cloneClass: CSS class to add to the cloned copy of the element
 - dropClass: CSS class to add to the element at the location the currently draggeed element can be dropped
 - customClone: Custom object to use as clone
+
         <script type='text/javascript'>
          $(function() {
 	       $('ul.sort li').listSort(
@@ -32,7 +33,9 @@ Just another list drag and sort jQuery plugin that takes into account relative p
 		   );
 	     });
         </script>
+		
 - onStartDrag: This will be called before dragging starts.
+
         <script type='text/javascript'>
          $(function() {
 	       $('ul.sort li').listSort(
@@ -42,7 +45,9 @@ Just another list drag and sort jQuery plugin that takes into account relative p
 		   );
 	     });
         </script>
+		
 - onEndDrag: This will be called when dragging ends AND a new position is found
+
 		<script type='text/javascript'>
          $(function() {
 	       $('ul.sort li').listSort(
@@ -53,3 +58,4 @@ Just another list drag and sort jQuery plugin that takes into account relative p
 		   );
 	     });
         </script>
+
